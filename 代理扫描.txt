@@ -1,0 +1,2 @@
+zmap -p 8080 --output-filter='sport=8080' -o proxy8080.txt -w cnall.txt -i eth0
+zmap -p 9999 --output-filter='sport=9999' -o proxy8080.txt -w cnall.txt -i eth0
